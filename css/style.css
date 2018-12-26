@@ -8632,3 +8632,14 @@ textarea.form-control {
 .icon-heart {
   color: #d60000;
 }
+
+.link-btn {
+  background: #2ea07b;
+  color: white!important;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+.link-btn:hover {
+  background: green;
+}
