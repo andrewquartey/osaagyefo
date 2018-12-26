@@ -12,3 +12,4 @@ phases:
   post_build:
     commands:
       - echo "post_build step"
+      - aws cloudfront create-invalidation --distribution-id E1J4L7ICX9Y5J8 --paths '/*'
